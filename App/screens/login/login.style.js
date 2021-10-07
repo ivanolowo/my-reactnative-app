@@ -5,8 +5,21 @@ export const loginStyle = StyleSheet.create({
         display: "flex",
         flex: 1,
         justifyContent: "center",
-        alighnItems: "center",
+        alignItems: "center",
         flexDirection: "row",
-        backgroundColor: "rgb(101,50,200)"
+        backgroundColor: "#0ABAB5"
+    },
+
+    View: {
+        width: "80%",
+    },
+    cardTitle: {
+        color: "#0ABAB5",
+        alignItems: "center",
+    },
+    cardButton: {
+        margin: 2,
+        marginLeft: 0,
+        marginRight: 0,
     }
 })

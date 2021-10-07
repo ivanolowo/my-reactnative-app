@@ -1,9 +1,12 @@
 import React from 'react';
 import { Provider as PaperProvider,Text, TextInput } from 'react-native-paper';
 import { LoginScreen } from './App/screens/login/login.screen'
+import { theme } from './App.style'
+
+
 export default function App() {
   return (
-    <PaperProvider>
+    <PaperProvider theme={theme}>
       <LoginScreen />
     </PaperProvider>
   );
